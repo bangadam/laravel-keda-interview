@@ -1,33 +1,33 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="larravel-Keda-interview" />
+  <img src="./.github/app.gif" alt="laravel-Keda-interview" />
 
 &#xa0;
 
-  <!-- <a href="https://larravel-keda-interview.netlify.app">Demo</a> -->
+  <!-- <a href="https://laravel-keda-interview.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">Keda Interview</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/bangadam/larravel-keda-interview?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/bangadam/laravel-keda-interview?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/bangadam/larravel-keda-interview?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/bangadam/laravel-keda-interview?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/bangadam/larravel-keda-interview?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/bangadam/laravel-keda-interview?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/bangadam/larravel-keda-interview?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/bangadam/laravel-keda-interview?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/bangadam/larravel-keda-interview?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/bangadam/laravel-keda-interview?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/bangadam/larravel-keda-interview?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/bangadam/laravel-keda-interview?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/bangadam/larravel-keda-interview?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/bangadam/laravel-keda-interview?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
 
 <!-- <h4 align="center">
-	🚧  larravel-Keda-interview 🚀 Under construction...  🚧
+	🚧  laravel-Keda-interview 🚀 Under construction...  🚧
 </h4>
 
 <hr> -->
@@ -72,10 +72,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/bangadam/larravel-keda-interview
+$ git clone https://github.com/bangadam/laravel-keda-interview
 
 # Access
-$ cd larravel-keda-interview
+$ cd laravel-keda-interview
 
 # Install dependencies
 $ composer install
