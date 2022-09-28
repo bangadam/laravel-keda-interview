@@ -46,7 +46,7 @@
 
 ## :dart: About
 
-Describe your project
+This is a interview app for Keda company
 
 ## :sparkles: Features
 
@@ -54,7 +54,7 @@ Describe your project
 :heavy_check_mark: API User\
 :heavy_check_mark: API Messages\
 :heavy_check_mark: API Report\
-:heavy_check_mark: Auth with JWT\
+:heavy_check_mark: Auth with JWT
 
 ## :rocket: Technologies
 
