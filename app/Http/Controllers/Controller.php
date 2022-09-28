@@ -24,7 +24,7 @@ class Controller extends BaseController
     }
 
     // return error response.
-    public function errorResponse($error, $errorMessages = [], $code = 404)
+    public function errorResponse($error, $errorMessages = [], $code = 500)
     {
         $response = [
             'success' => false,

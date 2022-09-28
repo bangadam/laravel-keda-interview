@@ -1,49 +1,108 @@
-<h1> Laravel Back End Keda Interview Manual</h1>
-## Guidelines to do the project's
-There are several prerequisite apps/packages before making this project, such as: <br>
-1. PHP                  : version that is used on this project is PHP 7.4.14 <br>
-2. Composer (Laravel)   : version that is used on this project is Laravel Framework 8.35.1<br>
-3. PostgreSQL           : version that is used on this project is postgres (PostgreSQL) 13.1 <br>
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="larravel-Keda-interview" />
 
-Next steps are:
-1. From terminal run the command to clone repo : "https://github.com/ivanrivaldi191/keda_interview.git"
-2. Move to the cloned repo
-3. Composer install or update
-4. Open the project with a text editor Identify 
-    .env.example on the root directory Copy .env.example and copy it to .env 
-    Change the following fields in the .env 
-    file:   DB_DATABASE=dbname 
-            DB_USERNAME=dbuser 
-            DB_PASSWORD=dbpassword
-5. php artisan key:generate
+&#xa0;
 
-Tasks to be done are:
-1. Identify and fix the problems that exist in the project (Hint: Started from migration until seeder) <br>
-    Note: You are not allowed to make a new migration/seeder file for the user / user type <br>
-            ,the password in seeder is bcrypted goes by "dummydummy" <br>
-            You must only use api.php for the "routing" <br>
+  <!-- <a href="https://larravel-keda-interview.netlify.app">Demo</a> -->
+</div>
 
-2. Create Model for Customer and Controllers that support following features:
-    - Login
-    - Logout
-    - Message to other Customer(s)
-    - View own chat history
-    - Can report other Customer(s) or own feedback/bug to Staff
+<h1 align="center">Keda Interview</h1>
 
-3. Create Model for Staff and Controllers that support following features:
-    - Login
-    - Logout
-    - View all chat history
-    - View all Customer + deleted Customer
-    - Message to other Staff(s)
-    - Message to other Customer(s)
-    - Delete Customer(s)
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/bangadam/larravel-keda-interview?color=56BEB8">
 
-4. Auth on each page or feature
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/bangadam/larravel-keda-interview?color=56BEB8">
 
-5. You can create own Model and controllers to support point no 2 & 3, for example Model "Messages" to support Customer and Staff. <br>
-    You must not use any other packages / vendors, only from the composer or auth related are allowed which means only Laravel Passport or JWT only.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/bangadam/larravel-keda-interview?color=56BEB8">
 
-6. You are only tasked to work on the back-end side, so view is not important. Use postman for the documentation.
+  <img alt="License" src="https://img.shields.io/github/license/bangadam/larravel-keda-interview?color=56BEB8">
 
-8. As for the testing you are allowed to use phpunittest or any php/Laravel testing.
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/bangadam/larravel-keda-interview?color=56BEB8" /> -->
+
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/bangadam/larravel-keda-interview?color=56BEB8" /> -->
+
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/bangadam/larravel-keda-interview?color=56BEB8" /> -->
+</p>
+
+<!-- Status -->
+
+<!-- <h4 align="center">
+	🚧  larravel-Keda-interview 🚀 Under construction...  🚧
+</h4>
+
+<hr> -->
+
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/bangadam" target="_blank">Author</a>
+</p>
+
+<br>
+
+## :dart: About
+
+Describe your project
+
+## :sparkles: Features
+
+:heavy_check_mark: API Authentication\
+:heavy_check_mark: API User\
+:heavy_check_mark: API Messages\
+:heavy_check_mark: API Report\
+:heavy_check_mark: Auth with JWT\
+
+## :rocket: Technologies
+
+The following tools were used in this project:
+
+-   [PHP](https://www.php.net/)
+-   [Composer](https://getcomposer.org/)
+-   [Laravel](https://laravel.com/)
+
+## :white_check_mark: Requirements
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Composer](https://getcomposer.org/) installed.
+
+## :checkered_flag: Starting
+
+```bash
+# Clone this project
+$ git clone https://github.com/bangadam/larravel-keda-interview
+
+# Access
+$ cd larravel-keda-interview
+
+# Install dependencies
+$ composer install
+
+# Copy .env.example to .env
+$ cp .env.example .env
+
+# Run migration and seed
+$ php artisan migrate --seed
+
+# Run the project
+$ php artisan serve
+
+# Run Unit Test
+$ php artisan test
+```
+
+## :memo: API Documentation
+
+Import the postman collection from the root folder of the project with name `thunder-collection_Keda Tech.json`
+
+## :memo: License
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+Made with :heart: by <a href="https://github.com/bangadam" target="_blank">Bangadam</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>

@@ -22,7 +22,7 @@ class LoginController extends Controller
 
             return $this->successResponse($response, 'Login successful');
         } catch (\Exception $e) {
-            return $this->errorResponse($e->getMessage(), );
+            return $this->errorResponse($e->getMessage(), [], 500);
         }
     }
 }
